@@ -100,16 +100,10 @@ python bot/bot.py
 envie uma mensagem no Discord contendo uma palavra-chave
 o alerta será enviado para o WhatsApp
 
-### 🚧 Limitações atuais
-
-Uso do WhatsApp Sandbox do Twilio (ambiente de testes)
-Regras de decisão baseadas em palavras-chave
-Sem interface gráfica (controle via código)
-Essas limitações são intencionais para manter o projeto simples e focado na integração.
-
 
 ### 👩‍💻 Autora
 
-Maria Julia Siqueira Felix
+##Maria Julia Siqueira Felix
+
 Estudante de Desenvolvimento de Sistemas | Informática
 Interesse em Backend, Front-end e Inteligência Artificial
