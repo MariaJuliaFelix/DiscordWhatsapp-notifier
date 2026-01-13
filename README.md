@@ -41,15 +41,25 @@ Discord → Detecção de mensagem → Regra de decisão → WhatsApp
 ## 📁 Estrutura do projeto
 
 discord-smart-notifier/
+
 │
+
 ├─ bot/
+
 │ ├─ bot.py # Listener do Discord
+
 │ ├─ rules.py # Regras de decisão
+
 │ └─ notifier.py # Envio de notificações (WhatsApp)
+
 │
+
 ├─ teste_whatsapp.py # Teste isolado do Twilio
+
 ├─ .env # Variáveis de ambiente (não versionado)
+
 ├─ .gitignore
+
 └─ README.md
 
 
@@ -95,7 +105,7 @@ python teste_whatsapp.py
 python bot/bot.py
 ```
 
-## Depois disso:
+### Depois disso:
 
 envie uma mensagem no Discord contendo uma palavra-chave
 o alerta será enviado para o WhatsApp
@@ -103,7 +113,8 @@ o alerta será enviado para o WhatsApp
 
 ### 👩‍💻 Autora
 
-##Maria Julia Siqueira Felix
+## Maria Julia Siqueira Felix
 
 Estudante de Desenvolvimento de Sistemas | Informática
+
 Interesse em Backend, Front-end e Inteligência Artificial
